@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(179, 205, 253);
+	background-color: rgb(212, 225, 248);
 }
 section {
 	text-align: center;
@@ -7,4 +7,42 @@ section {
 
 video {
 	width: 50%;
+}
+article {
+	width: 50%;
+	margin: 0px auto;
+}
+article > h2 {
+	color: #025157;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article > p {
+	color: #343434;
+}
+
+form.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form.container > span {
+	font-size: large;
+	color: #025157;
+	font-weight: 600;
+	margin-right: 10px;
+}
+form.container > div > input {
+	border: none;
+	padding: 10px 5px;
+	border-radius: 5px;
+}
+form.container > div > button {
+	margin: 0px;
+	border: none;
+	background-color: #025157;
+	color: white;
+	border-radius: 5px;
+	padding: 7px 10px;
+	font-size: large;
 }
