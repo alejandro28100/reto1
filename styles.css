@@ -1,18 +1,28 @@
 body {
-	background-color: rgb(212, 225, 248);
+	background-color: rgb(232, 239, 252);
 }
-section {
+section.CTA {
+	display: flex;
+	align-items: center;
 	text-align: center;
 }
-
-video {
+div.videoContainer {
 	width: 50%;
+	display: flex;
+	flex-direction: column-reverse;
 }
-article {
+div.videoContainer > img {
+	width: 200px;
+	object-fit: scale-down;
+}
+div.videoContainer > video {
+	width: 100%;
+}
+section.CTA > article {
 	width: 50%;
 	margin: 0px auto;
 }
-article > h2 {
+section.CTA > article > h2 {
 	color: #025157;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
